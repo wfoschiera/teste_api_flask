@@ -36,7 +36,7 @@ See also
 - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
 - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
 - 🛳️ Automatic release to [PyPI](https://pypi.org) using [twine](https://twine.readthedocs.io/en/latest/) and github actions.
-- 🎯 Entry points to execute your program using `python -m <project_name>` or `$ project_name` with basic CLI argument parsing.
+- 🎯 Entry points to execute your program using `python -m <teste_api_flask>` or `$ teste_api_flask` with basic CLI argument parsing.
 - 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 > Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
@@ -45,24 +45,24 @@ See also
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
 
 ---
-# project_name Flask Application
+# teste_api_flask Flask Application
 
-project_description
+Awesome teste_api_flask created by wfoschiera
 
 ## Installation
 
 From source:
 
 ```bash
-git clone https://github.com/author_name/project_urlname project_name
-cd project_name
+git clone https://github.com/wfoschiera/teste_api_flask teste_api_flask
+cd teste_api_flask
 make install
 ```
 
 From pypi:
 
 ```bash
-pip install project_name
+pip install teste_api_flask
 ```
 
 ## Executing
@@ -72,13 +72,13 @@ This application has a CLI interface that extends the Flask CLI.
 Just run:
 
 ```bash
-$ project_name
+$ teste_api_flask
 ```
 
 or
 
 ```bash
-$ python -m project_name
+$ python -m teste_api_flask
 ```
 
 To see the help message and usage instructions.
@@ -86,10 +86,10 @@ To see the help message and usage instructions.
 ## First run
 
 ```bash
-project_name create-db   # run once
-project_name populate-db  # run once (optional)
-project_name add-user -u admin -p 1234  # ads a user
-project_name run
+teste_api_flask create-db   # run once
+teste_api_flask populate-db  # run once (optional)
+teste_api_flask add-user -u admin -p 1234  # ads a user
+teste_api_flask run
 ```
 
 Go to:

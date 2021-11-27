@@ -15,10 +15,10 @@ echo "Project URL name: $urlname";
 echo "Description: $description";
 
 echo "Rendering the Flask template..."
-original_author="author_name"
-original_name="project_name"
-original_urlname="project_urlname"
-original_description="project_description" 
+original_author="wfoschiera"
+original_name="teste_api_flask"
+original_urlname="teste_api_flask"
+original_description="Awesome teste_api_flask created by wfoschiera" 
 TEMPLATE_DIR="./.github/templates/flask"
 for filename in $(find ${TEMPLATE_DIR} -name "*.*" -not \( -name "*.git*" -prune \) -not \( -name "apply.sh" -prune \)) 
 do
@@ -48,7 +48,7 @@ fi
 # Move module files
 rm -rf "${name}"
 rm -rf tests
-cp -R ${TEMPLATE_DIR}/project_name "${name}"
+cp -R ${TEMPLATE_DIR}/teste_api_flask "${name}"
 cp -R ${TEMPLATE_DIR}/tests tests
 
 cp ${TEMPLATE_DIR}/README.md README.md
@@ -66,12 +66,12 @@ then
     make install
     echo "Applied Flask template"
     echo "Ensure you activate your env with 'source .venv/bin/activate'"
-    echo "then run 'project_name' or 'python -m project_name'"
+    echo "then run 'teste_api_flask' or 'python -m teste_api_flask'"
 else
     poetry install
     echo "Applied Flask template"
     echo "Ensure you activate your env with 'poetry shell'"
-    echo "then run 'project_name' or 'python -m project_name' or 'poetry run project_name'"
+    echo "then run 'teste_api_flask' or 'python -m teste_api_flask' or 'poetry run teste_api_flask'"
 fi
 
 echo "README.md has instructions on how to use this Flask application."

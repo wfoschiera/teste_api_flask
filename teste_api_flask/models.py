@@ -1,6 +1,6 @@
 from sqlalchemy_serializer import SerializerMixin
 
-from project_name.ext.database import db
+from teste_api_flask.ext.database import db
 
 
 class Product(db.Model, SerializerMixin):
